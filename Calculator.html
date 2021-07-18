@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+  
+    .as{
+      margin: 5px;
+      /*margin:10px 0px 0px 10px;*/
+    }
+    #label{
+      
+      font-weight: 600;
+      font-family: serif;
+      margin-bottom: 33px;
+      height: 60px;
+      margin-top: 35px;
+      margin-right: 8px;
+      text-align: right;
+    
+      font-size: 27px;
+    }
+    .label{
+      
+width:315px; height:80px; margin:0px 10px 10px 10px; border:2px solid black; border-radius:16px; background-color:rgba(0,250,140,0.7); border-width:5px;
+    }
+    .tr{
+      background-color: rgb(250,230,255);
+      border: 1px solid white;
+      border-radius: 15px;
+    }
+    .tr div{
+      border-radius: 75%;
+      padding: 3px;
+      background-color: white;
+    }
+      .as button{
+        width:48px;
+        margin: 7px;
+        height: 50px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: 700;
+      
+      }
+      .no{
+        
+        background-color: grey;
+      border-radius: 7px;
+      color: white;
+        font-weight: 700;
+      }
+      
+      
+      #anim{
+width:340px; height:480px;
+      }
+   
+      
+      
+      
+    </style>
+    <script src="Hy.js">
+      
+    </script>
+  </head>
+  <body style="background-color:white;">
+   <!-- <h3 align="center" style="color:rgba(255,255,255,0.6); text-shadow:2px 2px black; font-size:30px; background-color:rgb(10,30,200); margin:0px; padding-top:13px; width:100%; height:45px; font-weight:700; border-radius:6px; border:2px solid rgb(0,0,0) ;">AK-Calculator</h3>-->
+    <div id="anim" style='margin-top:30px; border:2px solid black;  border-radius:17px; background-color:rgb(0,10,60); box-shadow:5px 5px rgba(0,0,0,0.6);'>
+    <h3 align="center" style="color:white; font-weight:1000; text-shadow:5px 5px black; margin:6px;">Ⓐ︎ Ⓚ︎</h3>
+    
+      <div class="label">
+
+        <div id="label"></div>
+        
+      </div>
+      
+      <div class="as">
+      <div>
+        <button id="one" class="no" onclick="onec()">1</button>
+        <button id="two" class="no" onclick="twoc()">2</button>
+        <button onclick="threec()" id='three' class="no">3</button>
+        <button onclick="delc()" id="del" style="background-color:red; color:white; border-radius:5px;">DEL</button>
+        <button onclick="cc()" id="cc" style="background-color:lightgreen; color:goldenrod; font-weight:1000; border-radius:100%;">C</button>
+      </div>
+      <div>
+   <button onclick="fourc()" class="no">4</button>
+        <button onclick="fivec()" id="five" class="no">5</button>
+        <button onclick="sixc()" id='six' class="no">6</button>
+        <button onclick="plusc()" id='plus'>+</button>
+        <button onclick="minusc()" id="minus">-</button>
+        </div>
+        <div>
+   <button onclick="sevenc()" id="seven" class="no">7</button>
+        <button onclick="eightc()" id="eight" class="no">8</button>
+        <button onclick="ninec()" id="nine" class="no">9</button>
+        <button onclick="multiplyc()" id="multiply">×</button>
+        <button onclick="divisionc()" id="divide">÷</button>
+        
+        </div>
+        <div>
+   <button onclick="dotc()"id='.'>.</button>
+        <button onclick="zeroc()" id="zero" class="no">0</button>
+        <button onclick="pic()" id='pi'>π</button>
+        <button onclick="raisec()"id='raise'>^</button>
+        <button onclick="moduloc()" id="tslash">%</button>
+        
+        
+      </div>
+      
+  <div>
+   <button onclick="sinec()" id="sine" class="tr"><div>sin</div></button>
+        <button onclick="cosinec()" id="cosine" class="tr"><div>cos</div></button>
+        <button onclick="tangentc()" id="tangent" class="tr"><div>tan</div></button>
+        <button onclick="rootc()"id='root'>√</button>
+        <button onclick="equalc()" id="equal" style="color:rgba(255,255,255,0.8); background-color:rgb(70,0,245); border-radius:12px;">=</button>
+        
+        
+      </div>
+      
+      
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+  <footer>
+    <br>
+    <br>
+    <br />
+    
+    
+    <p align='center'>
+       &#169;<span style="color:rgba(0,0,0,0.6);"> Copywrite owned by A.K</span></p>
+  </footer>
+</html>
